@@ -1,0 +1,5 @@
+# результаты сборки
+out/
+# tree-sitter CLI, собранный под glibc 2.28 (cargo install tree-sitter-cli на debian:buster);
+# build.sh берёт его, если он лежит рядом, иначе собирает сам через cargo
+tree-sitter
